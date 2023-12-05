@@ -26,6 +26,7 @@ public class VideoGamesSecurityConfig {
     private static final String[] UN_SECURED_URLs = {
             "/user/add",
             "/login/**",
+            "/swagger-ui/**"
     };
 
     @Autowired
